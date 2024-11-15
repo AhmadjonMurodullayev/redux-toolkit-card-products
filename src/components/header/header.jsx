@@ -16,7 +16,7 @@ export const Header = () => {
       </Drawer>
       <Stack sx={{maxWidth:"1200px", margin:"auto"}} >
         <IconButton onClick={() => setShowP(true)} aria-label="cart">
-          <Badge badgeContent={count ? count : "0"} color="error">
+          <Badge badgeContent={count ? count : 0} color="error">
             <CartIcon />
           </Badge>
         </IconButton>
